@@ -18,6 +18,7 @@ function Model({ ...props }) {
   //   group.current.rotation.y = Math.sin(t / 4) / 8
   //   group.current.position.y = (1 + Math.sin(t / 1.5)) / 10
   // })
+  // })
 
   return (
     <group ref={group} {...props} dispose={null} scale={0.5} rotation={[0, -Math.PI / 2, 0]}>
