@@ -1,16 +1,14 @@
-import { useRef } from 'react'
+import { Suspense, useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
 import { useLoader } from '@react-three/fiber'
 import { TextureLoader } from 'three'
 
-function  Model({ ...props }) {
-  const group = useRef();
-  const { nodes, materials } = useGLTF('./blacksmith_Textured.glb');
+function Model({ ...props }) {
+  const group = useRef()
+  const { nodes, materials } = useGLTF('./blacksmith_Textured.glb')
 
   // const colorMapGround = useLoader(TextureLoader, './Textures/GroundBaked.png');
-
-  console.log(materials)
 
   // Animate model
   // useFrame((state) => {
@@ -22,41 +20,27 @@ function  Model({ ...props }) {
   // })
 
   return (
-    <group ref={group} {...props} dispose={null} scale={0.5} rotation={[0 , -Math.PI / 2, 0]}>
+    <group ref={group} {...props} dispose={null} scale={0.5} rotation={[0, -Math.PI / 2, 0]}>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Lights002.geometry}
-        material={new THREE.MeshBasicMaterial({color: new THREE.Color('yellow')})}
+        material={new THREE.MeshBasicMaterial({ color: new THREE.Color('yellow') })}
         position={[1.88, 1.47, -1.1]}
       />
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Window001.geometry}
-        material={new THREE.MeshBasicMaterial({color: new THREE.Color('white')})}
+        material={new THREE.MeshBasicMaterial({ color: new THREE.Color('white') })}
         position={[-0.05, 0, -0.2]}
         scale={1.12}
       />
-      <mesh
-        geometry={nodes.Ground003.geometry}
-        material= {materials.Ground}
-      />
-      <mesh
-        geometry={nodes.Plane090.geometry}
-        material={materials.Poutre}
-        position={[1.39, 0, -2.83]}
-        scale={1.29}
-      />
+      <mesh geometry={nodes.Ground003.geometry} material={materials.Ground} />
+      <mesh geometry={nodes.Plane090.geometry} material={materials.Poutre} position={[1.39, 0, -2.83]} scale={1.29} />
       <group position={[1.41, 0, -0.2]} scale={0.85}>
-        <mesh
-          geometry={nodes.Plane071.geometry}
-          material={materials.Door}
-        />
-        <mesh
-          geometry={nodes.Plane071_1.geometry}
-          material={materials.Door2}
-        />
+        <mesh geometry={nodes.Plane071.geometry} material={materials.Door} />
+        <mesh geometry={nodes.Plane071_1.geometry} material={materials.Door2} />
       </group>
       <mesh
         geometry={nodes.Texte001.geometry}
@@ -66,66 +50,23 @@ function  Model({ ...props }) {
         scale={0.26}
       />
       <group position={[3.25, 0.36, -1.2]} rotation={[0, 0.46, 0]} scale={0.92}>
-        <mesh
-          geometry={nodes.Plane073.geometry}
-          material={materials.Outils2}
-        />
-        <mesh
-          geometry={nodes.Plane073_1.geometry}
-          material={materials.Branch}
-        />
-        <mesh
-          geometry={nodes.Plane073_2.geometry}
-          material={materials.Outils}
-        />
+        <mesh geometry={nodes.Plane073.geometry} material={materials.Outils2} />
+        <mesh geometry={nodes.Plane073_1.geometry} material={materials.Branch} />
+        <mesh geometry={nodes.Plane073_2.geometry} material={materials.Outils} />
       </group>
       <group position={[-0.11, 0, -0.2]} scale={1.12}>
-        <mesh
-          geometry={nodes.Plane079.geometry}
-          material={materials.Roof2}
-        />
-        <mesh
-          geometry={nodes.Plane079_1.geometry}
-          material={materials.Wood3}
-        />
-        <mesh
-          geometry={nodes.Plane079_2.geometry}
-          material={materials.Roof}
-        />
+        <mesh geometry={nodes.Plane079.geometry} material={materials.Roof2} />
+        <mesh geometry={nodes.Plane079_1.geometry} material={materials.Wood3} />
+        <mesh geometry={nodes.Plane079_2.geometry} material={materials.Roof} />
       </group>
-      <group
-        position={[-1.63, 0.23, -0.17]}
-        rotation={[Math.PI / 2, 0, Math.PI / 2]}
-        scale={0.97}
-      >
-        <mesh
-          geometry={nodes.Cube025.geometry}
-          material={materials.Wall}
-        />
-        <mesh
-          geometry={nodes.Cube025_1.geometry}
-          material={materials.Wall1}
-        />
-        <mesh
-          geometry={nodes.Cube025_2.geometry}
-          material={materials.Wall2}
-        />
+      <group position={[-1.63, 0.23, -0.17]} rotation={[Math.PI / 2, 0, Math.PI / 2]} scale={0.97}>
+        <mesh geometry={nodes.Cube025.geometry} material={materials.Wall} />
+        <mesh geometry={nodes.Cube025_1.geometry} material={materials.Wall1} />
+        <mesh geometry={nodes.Cube025_2.geometry} material={materials.Wall2} />
       </group>
-      <mesh
-        geometry={nodes.AccrocheLampe001.geometry}
-        material={materials.Metal}
-        position={[1.41, 1.77, -1.1]}
-      />
-      <mesh
-        geometry={nodes.Plane070.geometry}
-        material={materials.Metal}
-        position={[1.88, 1.47, -1.1]}
-      />
-      <mesh
-        geometry={nodes.Roundcube032.geometry}
-        material={materials.Metal}
-        position={[1.88, 1.77, -1.1]}
-      />
+      <mesh geometry={nodes.AccrocheLampe001.geometry} material={materials.Metal} position={[1.41, 1.77, -1.1]} />
+      <mesh geometry={nodes.Plane070.geometry} material={materials.Metal} position={[1.88, 1.47, -1.1]} />
+      <mesh geometry={nodes.Roundcube032.geometry} material={materials.Metal} position={[1.88, 1.77, -1.1]} />
       <mesh
         geometry={nodes.Rond001.geometry}
         material={materials.Metal}
@@ -140,25 +81,17 @@ function  Model({ ...props }) {
         rotation={[Math.PI, -0.3, Math.PI]}
         scale={1.21}
       />
-      <mesh
-        geometry={nodes.Rocks.geometry}
-        material={materials.Rocks}
-        position={[0.76, 0, -0.13]}
-      />
+      <mesh geometry={nodes.Rocks.geometry} material={materials.Rocks} position={[0.76, 0, -0.13]} />
     </group>
-  );
+  )
 }
 
-useGLTF.preload("/blacksmith_Textured.glb");
+useGLTF.preload('/blacksmith_Textured.glb')
 
-
-
-export default function House(){
-
+export default function House() {
   return (
-    <>
+    <Suspense fallback={null}>
       <Model />
-    </>
-  );
-
+    </Suspense>
+  )
 }

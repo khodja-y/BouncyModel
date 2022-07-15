@@ -1,35 +1,32 @@
 import { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import {
-  useGLTF,
-  PresentationControls,
-  Html,
-  useTexture
-} from '@react-three/drei'
+import { Col, Row } from 'react-bootstrap'
+import { useGLTF, PresentationControls, Html, useTexture } from '@react-three/drei'
 import * as THREE from 'three'
+import { useSpring } from '@react-spring/core'
+import { a } from '@react-spring/web'
 
-import House from './components/House.js';
+import House from './components/House.js'
+import Overlay from './components/Overlay.js'
 
 export default function App() {
-  return (
-    <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 6], fov: 75 }}>
-      <ambientLight intensity={0.5} />
-      <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} shadow-mapSize={[512, 512]} castShadow />
-      <PresentationControls
-        global
-        rotation={[0, 0.3, 0]}
-        polar={[-Math.PI / 3, Math.PI / 3]}
-        azimuth={[-Math.PI / 1.4, Math.PI / 2]}>
-        <House />
+  const [{ background, fill }, set] = useSpring({ background: '#ffffff', fill: '#202020' }, [])
 
-      </PresentationControls>
-      {/*<ContactShadows position={[0, -1.4, 0]} opacity={0.75} scale={10} blur={2.5} far={4} />*/}
-      {/*<Environment preset="city" />*/}
-    </Canvas>
+  return (
+    <a.main style={{ background }}>
+      <Canvas className="canvas" dpr={[1, 2]} camera={{ position: [0, 0, 6], fov: 75 }}>
+        <ambientLight intensity={0.5} />
+        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} shadow-mapSize={[512, 512]} castShadow />
+        <PresentationControls global rotation={[0, 0.3, 0]} polar={[-Math.PI / 3, Math.PI / 3]} azimuth={[-Math.PI / 1.4, Math.PI / 2]}>
+          <House />
+        </PresentationControls>
+        {/*<ContactShadows position={[0, -1.4, 0]} opacity={0.75} scale={10} blur={2.5} far={4} />*/}
+        {/*<Environment preset="city" />*/}
+      </Canvas>
+      <Overlay fill={fill} />
+    </a.main>
   )
 }
-
-
 
 // function House(props) {
 //   const ref = useRef()
