@@ -13,27 +13,8 @@ import { HexColorPicker } from "react-colorful"
 import { proxy, useSnapshot } from "valtio"
 import * as THREE from "three"
 
-const state = proxy({
-  current: null,
-  items: {
-    Poignet: "#968078",
-    InterieurRoues: "#E7A259",
-    Carrosserie: "#60E785",
-    Escaliers: "#B2483A",
-    Fenetre: "#18EFFF",
-    Cheminet: "#968078",
-    Toit: "#E76B00",
-    Roues: "#63271F",
-    CarosserieExterne: "#E7A259",
-    Porte: "#B2483A",
-    ToitExterne: "#B2483A",
-    FenetreExterne: "#B2483A",
-    Nuages: "#ffffff",
-    Background: "#321D46"
-  },
-})
 
-function Model({ ...props }) {
+export default function Wagon({ state,...props }) {
   const group = useRef();
   const { nodes, materials } = useGLTF("./WagonWithoutTexture.glb")
 
@@ -67,7 +48,10 @@ function Model({ ...props }) {
       onPointerOut={(e) => e.intersections.length === 0 && set(null)}
       onPointerMissed={() => (state.current = null)}
       onClick={(e) => (e.stopPropagation(), (state.current = e.object.material.name))}>
-      <group position={[1.74, 2.24, -0.35]}>
+
+
+
+      <group position={[1, -1, 0]}>
         <mesh
           castShadow
           receiveShadow
@@ -172,88 +156,16 @@ function Model({ ...props }) {
         // material={materials.Nuages}
         // material={new THREE.MeshBasicMaterial({ color: snap.items.Nuages, name: "Nuages" })}
         material={new THREE.MeshStandardMaterial({ color: snap.items.Nuages, name: "Nuages", roughness: 0.5, metalness: 0.5  })}
-        position={[-0.43, 5.11, 0.03]}
+        position={[-0.43, 2, 0.03]}
         scale={0.11}
       />
     </group>
   )
 }
 
-function Picker() {
-  const snap = useSnapshot(state)
-
-  return (
-    <div style={{ display: snap.current ? "block" : "none" }}>
-      <HexColorPicker className="picker" color={snap.items[snap.current]} onChange={(color) => (state.items[snap.current] = color)} />
-      <h1>{snap.current}</h1>
-    </div>
-  )
-}
-
-const angleToRadians = (angleInDeg) => (Math.PI / 180) * angleInDeg;
-
-const Light = () => {
-  const light1 = useRef()
-  const light2 = useRef()
-  const light3 = useRef()
-  const light4 = useRef()
-  useHelper(light1, THREE.PointLightHelper, 1);
-  useHelper(light2, THREE.PointLightHelper, 1);
-  useHelper(light3, THREE.PointLightHelper, 1);
-  useHelper(light4, THREE.PointLightHelper, 1);
-
-  return (
-    <>
-      <pointLight args={[`#ffffff`, 1, 100]} position={[5, 10, 0]} />
-      <pointLight args={[`#ffffff`, 0.5, 100]} position={[0, 6, -5]} />
-      <pointLight args={[`#ffffff`, 0.5, 100]} position={[0, 6, 5]} />
-      <pointLight args={[`#76AFFF`, 0.5, 100]} position={[0, 0, 0]} />
-    </>
-  )
-
-
-}
-
-
-export default function Wagon() {
-  const myCamera = new THREE.PerspectiveCamera(75, 1, 0.1, 2000);
-  // myCamera.position = new THREE.Vector3(0, 0, 10);
-  const snap = useSnapshot(state)
-
-  const ref = useRef();
-
-  return (
-    <>
-        {/*<ambientLight intensity={1.0} />*/}
-        {/*<spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />*/}
-
-        {/* Ambient light */}
-        {/*<ambientLight args={["#ffffff", 0]} />*/}
-        <directionalLight intensity={0.5} />
-        <Light/>
-
-
-        <Suspense fallback={null}>
-          <Model />
-
-          {/*<Environment preset="city" />*/}
-          <Environment background>
-            <group
-              ref={ref}>
-              <mesh>
-                <sphereGeometry ref={ref} args={[50, 100, 100]} />
-                <meshBasicMaterial color={snap.items.Background} side={THREE.BackSide} />
-              </mesh>
-            </group>
-          </Environment>
-
-          <ContactShadows position={[0, -0.8, 0]} opacity={0.25} scale={10} blur={1.5} far={0.8} />
 
 
 
-        </Suspense>
-        <OrbitControls minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} enableZoom={true} enablePan={true} />
-      <Picker />
-    </>
-  )
-}
+
+
+
