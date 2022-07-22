@@ -51,7 +51,7 @@ export default function Wagon({ state,...props }) {
 
 
 
-      <group position={[1, -1, 0]}>
+      <group position={[2, 1, 0]}>
         <mesh
           castShadow
           receiveShadow
@@ -156,7 +156,7 @@ export default function Wagon({ state,...props }) {
         // material={materials.Nuages}
         // material={new THREE.MeshBasicMaterial({ color: snap.items.Nuages, name: "Nuages" })}
         material={new THREE.MeshStandardMaterial({ color: snap.items.Nuages, name: "Nuages", roughness: 0.5, metalness: 0.5  })}
-        position={[-0.43, 2, 0.03]}
+        position={[1, 4, 0.03]}
         scale={0.11}
       />
     </group>

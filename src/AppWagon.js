@@ -83,174 +83,339 @@ export default function AppWagon() {
           <Row>
             <Col sm={6} className=''>
               <div className='overlay'>
-                <h2 className='just'>LES OISEAUX DE PASSAGE</h2>
+                <h2 className='just'>Le départ</h2>
                 <p className='just scroll'>
-                  L’épicerie de Tomek était la dernière maison du village. C’était une petite
-                  boutique toute simple avec, au-dessus de la vitrine, l’inscription ÉPICERIE
-                  peinte en lettres bleues. Quand on poussait la porte, une clochette tintait
-                  joyeusement, ding ding, et Tomek se tenait devant vous, souriant dans son
-                  tablier gris d’épicier. C’était un garçon aux yeux rêveurs, assez grand pour
-                  son âge, plutôt osseux. Il ne servirait à rien de faire le détail des articles que
-                  Tomek vendait dans son épicerie. Un livre entier n’y suffirait pas, alors
-                  qu’un seul mot convient pour le dire, et ce mot c’est justement : « tout ».
-                  Tomek vendait « tout ». Entendons par là des choses utiles et raisonnables,
-                  comme les tapettes à mouches et l’élixir « Contrecoups » de l’abbé
-                  Perdrigeon, mais aussi et bien sûr des objets indispensables comme les
-                  bouillottes en caoutchouc et les couteaux à ours.
-                  Comme Tomek vivait dans son magasin, ou plutôt dans l’arrièreboutique de son magasin, il ne fermait
-                  jamais. Il y avait bien une petite
-                  pancarte accrochée à l’entrée, mais elle était toujours tournée du même
-                  côté, celui qui indiquait OUVERT. Ce n’était pas pour autant un défilé
-                  continuel. Non. Les gens du village étaient respectueux et se gardaient bien
-                  de déranger à toute heure. Ils savaient seulement qu’en cas de besoin
-                  urgent, Tomek les dépannerait avec gentillesse, même au milieu de la nuit.
-                  Il ne faut pas croire non plus que Tomek ne quittait jamais sa boutique. Bien
-                  au contraire, il lui arrivait souvent d’aller se dégourdir les jambes ou même
-                  de s’absenter pour une demi-journée. Mais dans ce cas-là, le magasin restait
-                  ouvert et les clients se servaient tout seuls. À son retour, Tomek trouvait un
-                  petit mot sur le comptoir: « Pris un rouleau de ficelle à saucisson. Line »
-                  accompagné de l’argent du règlement, ou bien : « Pris mon tabac. Paierai
-                  demain. Jak. »
-                  Ainsi tout était pour le mieux dans le meilleur des mondes, comme on
-                  dit, et cela aurait pu durer des années et même des siècles sans qu’il arrivât
-                  rien de particulier.
-                  Seulement voilà, Tomek avait un secret. Oh, ce n’était rien de mal ni de
-                  tellement extraordinaire. Cela lui était venu avec tant de lenteur qu’il ne
-                  s’était aperçu de rien. Exactement comme les cheveux qui poussent sans
-                  qu’on s’en rende compte: un beau jour ils sont trop longs et voilà. Un beau
-                  jour donc, Tomek se retrouva avec cette pensée qui avait poussé à
-                  l’intérieur de sa tête au lieu de pousser dessus, et qu’on pouvait résumer
-                  ainsi: il s’ennuyait. Mieux que cela, il s’ennuyait… beaucoup. Il avait envie
-                  de partir, de voir le monde.
-                  Depuis la petite fenêtre de son arrière-boutique, il regardait souvent la
-                  vaste plaine où le blé de printemps se balançait avec grâce, semblable aux
-                  vagues de la mer. Et seul le ding ding de la sonnette à la porte de la
-                  boutique pouvait l’arracher à sa rêverie. D’autres fois, très tôt, il allait
-                  marcher sur les chemins qui se perdaient dans la campagne, dans le bleu si
-                  tendre des champs de lin au petit jour, et cela lui arrachait le cœur de devoir
-                  rentrer à la maison.
-                  Mais c’est à l’automne surtout, au moment où les oiseaux de passage
-                  traversaient le ciel, dans leur grand silence, que Tomek ressentait avec le
-                  plus de violence le désir de s’en aller. Les larmes lui en venaient aux yeux
-                  tandis qu’il regardait les oies sauvages disparaître à grands coups d’aile à
-                  l’horizon.
-                  Malheureusement, on ne part pas comme cela quand on s’appelle Tomek
-                  et qu’on est responsable de l’unique épicerie du village, cette épicerie que
-                  son père avait tenue avant lui, et son grand-père avant son père. Qu’auraient
-                  pensé les gens ? Qu’il les abandonnait ? Qu’il n’était pas bien avec eux ?
-                  Qu’il ne se plaisait plus au village ? En tout cas ils n’auraient pas compris.
-                  Cela les aurait rendus tristes. Or, Tomek ne supportait pas de faire de la
-                  peine à autrui. Il résolut donc de rester et de garder son secret pour lui. Il
-                  fallait être patient, se disait-il, l’ennui finirait bien par s’en aller comme il
-                  était venu, lentement, avec le temps, sans qu’il s’en aperçoive…
-                  Hélas, ce fut tout le contraire qui arriva. Sans compter qu’un événement
-                  considérable allait bientôt réduire à néant tous les efforts que Tomek faisait
-                  pour être raisonnable.
-                  C’était la fin de l’été, un soir qu’il avait laissé la porte de sa boutique
-                  ouverte pour profiter de la fraîcheur de la nuit. Il était occupé à faire ses
-                  comptes sur son grand cahier spécial, à la lumière d’une lampe à huile, et il
-                  suçotait, rêveur, son crayon à papier, quand une voix claire le fit presque
-                  sursauter:
-                  — Est-ce que vous vendez des sucres d’orge?
-                  Il leva la tête et vit la plus jolie personne qu’on puisse imaginer. C’était
-                  une jeune fille de douze ans environ, brune comme on peut l’être, en
-                  sandales et dans une robe en piteux état. À sa ceinture pendait une gourde
-                  de cuir. Elle était entrée sans bruit par la porte ouverte, si bien qu’on aurait
-                  dit une apparition, et maintenant elle fixait Tomek de ses yeux noirs et
-                  tristes:
-                  — Est-ce que vous vendez des sucres d’orge?
-                  Alors Tomek fit deux choses en même temps. La première, ce fut de
-                  répondre:
-                  — Oui, je vends des sucres d’orge.
-                  Et la seconde chose que fit Tomek, lui qui de toute sa vie ne s’était pas
-                  retourné trois fois sur une fille, ce fut de tomber amoureux de ce petit brin
-                  de femme, d’en tomber amoureux instantanément, complètement et
-                  définitivement.
-                  Il prit un sucre d’orge dans un bocal et le lui tendit. Elle le cacha
-                  aussitôt dans une poche de sa robe. Mais elle ne semblait pas vouloir s’en
-                  aller. Elle restait là à regarder les rayons et les rangées de petits tiroirs qui
-                  occupaient un mur tout entier.
-                  — Qu’ayez-vous dans tous ces petits tiroirs ?
-                  — J’ai… tout, répondit Tomek. Enfin tout le nécessaire…
-                  — Des élastiques à chapeau?
-                  — Oui, bien sûr.
-                  Tomek escalada son échelle et ouvrit un tiroir tout en haut:
-                  — Voilà.
-                  — Et des cartes à jouer ?
-                  Il redescendit et ouvrit un autre tiroir:
-                  — Voilà.
-                  Elle hésita, puis un sourire timide se forma sur ses lèvres. Cela l’amusait
-                  visiblement:
-                  — Et des images… de kangourou?
-                  Tomek dut réfléchir quelques secondes puis il se précipita vers un tiroir
-                  sur la gauche:
-                  — Voilà.
-                  Cette fois, les yeux sombres de la petite s’éclairèrent tout à fait. C’était
-                  si charmant de la voir heureuse que le cœur de Tomek se mit à faire des
-                  bonds dans sa poitrine.
-                  — Et du sable du désert? Du sable qui serait encore chaud?
-                  Tomek gravit encore une fois son échelle et prit dans un tiroir une petite
-                  fiole de sable orange. Il redescendit, fit couler le sable sur son cahier spécial
-                  pour que la jeune fille puisse le toucher. Elle le caressa avec le dos de la
-                  main puis promena dessus le bout de ses doigts agiles.
-                  — Il est tout chaud…
-                  Comme elle s’était approchée très près du comptoir, Tomek sentit sa
-                  chaleur à elle, et plus que sur le sable chaud, c’est sur son bras doré qu’il
-                  aurait voulu poser sa main. Elle le devina sans doute et reprit:
-                  — Il est aussi chaud que mon bras…
-                  Et de sa main libre elle prit la main de Tomek et la posa sur son bras.
-                  Les reflets de la lampe à huile jouaient sur son visage. Cela dura quelques
-                  secondes, au bout desquelles elle se dégagea en un mouvement léger,
-                  virevolta dans la boutique puis pointa enfin son doigt au hasard vers l’un
-                  des trois cents petits tiroirs:
-                  — Et dans celui-ci, qu’avez-vous dans celui-ci ?
-                  — Oh, ce ne sont que des dés à coudre… répondit Tomek en versant le
-                  sable dans la fiole grâce à un entonnoir.
-                  — Et dans celui-ci ?
-                  — Des dents de Sainte Vierge… ce sont des coquillages assez rares…
-                  — Ah, fit la petite, déçue. Et dans celui-là ?
-                  — Des graines de séquoia… Je peux vous en donner quelques-unes si
-                  vous voulez, je vous les offre, mais ne les semez pas n’importe où, car les
-                  séquoias peuvent devenir très grands…
-                  Tomek avait cru lui faire plaisir en disant cela. Mais ce fut tout le
-                  contraire. Elle redevint grave et songeuse. À nouveau ce fut le silence.
-                  Tomek n’osait plus rien dire. Un chat fit mine d’entrer par la porte restée
-                  ouverte. Il s’avança avec lenteur, mais Tomek le chassa d’un geste brusque
-                  de la main. Il ne voulait pas être dérangé.
-                  — Ainsi vous avez tout dans votre magasin? Vraiment tout? dit la jeune
-                  fille en levant les yeux vers lui.
-                  Tomek se trouva un peu embarrassé.
-                  — Oui… enfin tout le nécessaire… répondit-il avec ce qu’il fallait de
-                  modestie.
-                  — Alors, dit la petite voix fragile et hésitante, mais soudain pleine d’un
-                  fol espoir, sembla-t-il à Tomek, alors vous aurez peut-être… de l’eau de la
-                  rivière Qjar?
-                  Tomek ignorait ce qu’était cette eau. Il ignorait aussi où pouvait se
-                  trouver cette rivière Qjar. La jeune fille le vit bien, une ombre passa dans
-                  ses yeux et elle répondit sans qu’il eût à le demander:
-                  — C’est l’eau qui empêche de mourir, vous ne le saviez pas?
-                  Tomek secoua doucement la tête, non, il ne le savait pas.
-                  — J’en ai besoin… fit la petite.
-                  Puis elle tapota la gourde qui pendait à sa ceinture et ajouta :
-                  — Je la trouverai et je la mettrai là…
-                  Tomek aurait bien voulu qu’elle lui en dise plus, mais déjà elle
-                  s’avançait vers lui en dépliant un mouchoir dans lequel elle tenait quelques
-                  pièces de monnaie.
-                  — Je vous dois combien pour le sucre d’orge?
-                  — Un sou… s’entendit murmurer Tomek.
-                  La jeune fille posa la pièce sur le comptoir, regarda encore une fois les
-                  trois cents petits tiroirs et fit à Tomek un dernier sourire.
-                  — Au revoir.
-                  Puis elle sortit de la boutique.
-                  — Au revoir… bredouilla Tomek.
-                  La lampe à huile faiblissait. Il reprit place sur sa chaise, derrière le
-                  comptoir. Sur son grand cahier spécial encore ouvert, il y avait le sou de
-                  l’inconnue et quelques grains de sable orange.
+                  À compter de ce jour, l’idée de partir ne quitta plus Tomek. Une nuit, il fit
+                  un rêve étrange où la jeune fille était poursuivie par des tigres qui couraient
+                  sur leurs deux pattes de derrière, comme des hommes. Elle l’appelait :
+                  « Tomek ! Tomek ! » Il la prenait par la main et tous deux fuyaient à toutes
+                  jambes. Ils entendaient claquer derrière eux les mâchoires des hommestigres,
+                  mais ils leur échappaient au dernier moment en se cachant sous un
+                  rocher. Là, Tomek demandait à la petite comment elle pouvait bien
+                  connaître son nom et elle répondait en haussant les épaules : « Mais tout le
+                  monde te connaît, Tomek ! » Dans un autre rêve, il était penché au-dessus
+                  du bassin d’eau pure, tout en haut de la Montagne Sacrée. Quelque chose
+                  brillait au fond de l’eau, c’était le sou de la petite, celui avec lequel elle
+                  avait payé le sucre d’orge. Il le prenait dans sa main et quand il se
+                  retournait, elle était là, souriante, dans une robe de princesse. Et derrière
+                  elle, domptés, les hommes-tigres montaient la garde.<br/>
+                  Tomek fixa son départ un matin à l’aube. Ainsi on ne remarquerait pas
+                  tout de suite son absence, et quand le vieil Icham trouverait sa lettre, dans
+                  son échoppe, il serait déjà loin.<br/>
+                  Les derniers jours, il eut bien du mal à cacher son agitation et il lui
+                  sembla qu’on le regardait drôlement dans son épicerie. Comme s’il avait
+                  porté sur lui la marque de son grand projet, comme si quelque chose le
+                  trahissait, une lumière particulière dans les yeux, peut-être. Il s’interrogea
+                  longuement sur les habits qu’il devait prendre. Ce n’était pas commode car
+                  il n’avait aucune idée de ce qui l’attendait en chemin. Ferait-il froid ou
+                  chaud dans ces contrées lointaines ? Fallait-il se munir de chaussettes de
+                  laine, d’un épais pull-over et d’un passe-montagne ? Ou bien fallait-il au
+                  contraire être le plus léger possible pour ne pas être embarrassé ? Il ne savait
+                  pas non plus quel matériel emporter avec lui. Il chercha des réponses dans
+                  les quelques livres d’aventures qu’il aimait, mais il n’en trouva guère. La
+                  plupart des aventuriers ne possédaient rien et son préféré, Robinson Crusoé,
+                  encore moins que les autres puisqu’il avait tout perdu au cours de son
+                  naufrage. La jeune fille aux sucres d’orge n’avait rien non plus, semblait-il.
+                  Aussi Tomek décida-t-il de suivre leur exemple et de n’emporter avec lui
+                  que l’indispensable.<br/>
+                  Il lui fallait d’abord une bonne couverture de laine car il devrait sans
+                  doute dormir à la belle étoile et les nuits seraient vite fraîches.
+                  Il avait également besoin d’une gourde. Or, il en avait justement une en
+                  peau de loutre. Il la fixerait solidement à sa ceinture et elle lui servirait pour
+                  son usage personnel. Et aussi pour rapporter l’eau de la rivière Qjar. Si
+                  jamais il la trouvait, naturellement.<br/>
+                  Il confectionna lui-même, dans un tissu très résistant, une pochette de
+                  quelques centimètres, pas plus, dans laquelle il logea la pièce de la jeune
+                  fille. Ainsi il pourrait la lui rendre dès qu’il la trouverait. Au cas bien sûr où
+                  il la retrouverait… D’ici là, la pochette resterait cachée sous sa chemise,
+                  attachée à son cou par un cordon, et bien malin qui irait la lui prendre.
+                  Dans les poches de son pantalon, il mit seulement un couteau à ours, au
+                  cas où il aurait à se défendre, et deux mouchoirs sur lesquels sa mère avait
+                  autrefois brodé le T de son prénom à lui, Tomek.<br/>
+                  Le dernier soir, après avoir vérifié que ses affaires étaient prêtes, il
+                  s’assit derrière son comptoir, alluma sa lampe à huile et il écrivit pour
+                  Icham la lettre que voici.<br/>
+                  Cher grand-père Icham,<br/>
+                  Tu lis toujours les lettres des autres mais celle-ci est pour toi et tu
+                  n’auras pas besoin de la lire à haute voix. Je sais que je vais te faire de
+                  la peine et je te demande de me pardonner. Je suis parti ce matin pour
+                  la rivière Qjar. Si j’y arrive, je te rapporterai de son eau. J’espère
+                  retrouver en chemin la jeune fille dont je t’ai parlé, puisqu’elle va làbas
+                  aussi. Je te laisse la clef du magasin car là où je vais je risquerais
+                  de la perdre. Je reviendrai le plus tôt possible.<br/>
+                  À bientôt. Tomek.<br/>
+                  Il eut du mal à retenir ses larmes en glissant la lettre dans l’enveloppe.
+                  Icham avait bien vieilli ces derniers mois. Ses joues s’étaient creusées. Ses
+                  mains ressemblaient à de vieux parchemins. Serait-il encore vivant quand
+                  Tomek reviendrait ? Et d’ailleurs, reviendrait-il un jour ? Il n’en était pas sûr
+                  du tout.<br/>
+                  Il se coucha tout habillé sur son lit et dormit quelques heures d’un
+                  sommeil sans rêves. Quand il se réveilla, il faisait encore nuit et un rayon de
+                  lune éclairait faiblement l’arrière-boutique. Il sauta sur ses deux pieds, le
+                  coeur plein de joie. Ainsi c’était aujourd’hui ! Il lui sembla qu’il avait
+                  patienté une éternité et que le plus beau jour de sa vie était enfin arrivé. Un
+                  immense espoir l’envahit. Il trouverait la rivière Qjar, c’était certain. Il
+                  escaladerait la Montagne Sacrée. Il rapporterait l’eau. Il reverrait aussi la
+                  jeune fille, bien sûr, et il lui rendrait son argent !<br/>
+                  Il but un grand bol de chocolat et mangea de bon appétit plusieurs
+                  tartines de beurre et de confiture. Ensuite il s’habilla chaudement, vérifia
+                  que la gourde était bien fixée à sa ceinture, que la pochette était bien à sa
+                  place sous sa chemise et qu’il avait dans ses poches tout ce qu’il avait prévu
+                  d’y mettre. Il y ajouta au dernier moment un bon morceau de pain. Pour
+                  finir, il roula bien serré sa couverture de laine et l’attacha sur ses épaules,
+                  puis il alla à la porte de la boutique et là, il fit ce qu’il n’avait jamais fait de
+                  toute sa vie : il retourna la petite pancarte qui y était accrochée. Désormais
+                  elle indiquait : FERMÉ.<br/>
+                  Tomek traversa les rues silencieuses du village jusqu’à l’échoppe du
+                  vieil Icham. La toile était tirée. Il l’écarta sans bruit. Sur le pupitre
+                  qu’Icham utilisait pour écrire, Tomek déposa la clef de l’épicerie,
+                  l’enveloppe contenant sa lettre d’adieu et un gros morceau de nougat.
+                  « Au revoir, grand-père… » murmura-t-il encore, comme si le vieil
+                  homme pouvait l’entendre. Puis il revint sur ses pas et jeta en passant un
+                  dernier coup d’oeil à sa boutique. Il s’engagea enfin à grandes enjambées
+                  sur ce chemin qu’il avait pris si souvent déjà. Seulement, cette fois, il ne
+                  ferait pas demi-tour. Cette fois, il s’en allait pour de bon. Il était un
+                  aventurier. Comme pour le saluer, un vol d’oies sauvages dessina très haut
+                  dans le ciel un triangle parfait. Elles allaient vers le sud, comme Tomek.
+                  « J’arrive ! » leur lança-t-il, et sa poitrine se gonfla de bonheur.
+                  En ces temps anciens, on avait de la géographie une idée assez vague.
+                  On se doutait bien que la terre était ronde, mais beaucoup de gens n’en
+                  étaient finalement pas si convaincus. « Si la terre est ronde, disaient-ils, estce
+                  que ceux qui sont en dessous ont donc la tête en bas ? Et s’ils ne tombent
+                  pas, est-ce parce qu’ils sont collés par leurs semelles ? » Il n’y avait ni
+                  cartes précises comme aujourd’hui, ni panneaux indicateurs. On se dirigeait
+                  en observant le soleil, la lune, les étoiles… Et on se perdait assez souvent, il
+                  faut bien le reconnaître.<br/>
+                  Tomek avait résolu d’aller toujours vers le sud, là où se trouvait l’océan,
+                  d’après Icham. Une fois là-bas, pensait-il, il serait bien temps de choisir la
+                  droite ou la gauche pour tâcher de trouver la rivière Qjar. Pendant une
+                  bonne partie de la journée, il marcha dans des paysages qui lui étaient
+                  familiers, de collines en plaines, s’arrêtant seulement pour manger un peu
+                  de son pain, boire à sa gourde ou grappiller quelques fruits dans les arbres.
+                  Mais au fur et à mesure que le soir venait, il lui sembla que l’horizon
+                  s’élargissait et qu’il était barré au loin par une sorte d’interminable trait noir
+                  et horizontal. Quand il fut à quelques centaines de mètres, il vit que c’était
+                  une forêt, la plus grande qu’il eût jamais vue. L’idée de la traverser ne lui
+                  plaisait qu’à moitié, mais la contourner représenterait certainement
+                  plusieurs journées de marche, plusieurs semaines, qui sait ? À chaque jour
+                  suffit sa peine, se dit finalement Tomek, qui commençait à ressentir la
+                  fatigue. Il revint donc un peu en arrière, là où il avait remarqué un arbre
+                  isolé qui formait une sorte de parapluie, et dont les branches atteignaient
+                  presque le sol. Il se glissa dessous et s’enroula dans sa couverture. Dans un
+                  demi-sommeil, il pensa encore qu’il serait bon pour lui de trouver un
+                  compagnon de route, que les aventuriers en avaient souvent un, et qu’il se
+                  sentirait moins seul ainsi. Mais sa fatigue était si grande qu’il s’endormit
+                  avant même d’avoir eu le temps d’en éprouver du chagrin.<br/>
+                  <h2 className='just'>La forêt de l'oubli</h2>
+                    Quand Tomek se réveilla, il lui fallut quelques secondes pour réaliser
+                    qu’il n’était pas dans son lit. Mais en voyant le feuillage qui tombait en
+                    cloche autour de lui, tout lui revint d’un coup : son départ au petit jour, sa
+                    longue marche dans la campagne, l’arbre isolé. Il était donc vraiment parti.
+                    Ce n’était pas un rêve.<br/>
+                    Un minuscule oiseau jaune et bleu, niché dans les feuilles, se mit à
+                    siffloter tout près de lui et cela faisait : « Debout Tomek ! Debout Tomek ! »
+                    Il ne put s’empêcher de rire. Il ressentait le même bonheur que le matin
+                    précédent lorsqu’il avait quitté le village, le même sentiment de liberté, la
+                    même allégresse. Si c’est cela voyager, se dit-il, alors je veux bien faire
+                    trois fois le tour du monde !<br/>
+                    Il allait sortir de sa cachette quand il perçut des bruits étranges à
+                    l’extérieur. Cela ressemblait à du papier qu’on froisse ou peut-être à des
+                    brindilles qu’on entasse. Puis plusieurs claquements secs, comme si
+                    quelqu’un avait cassé des petites branches. Tomek, immobile, tendit
+                    l’oreille. Au bout d’un moment, on souffla à plusieurs reprises. Pas de
+                    doute, on allumait un feu. Tomek hésita encore à sortir. Et si cette personne
+                    était dangereuse ? Si elle l’attaquait ? D’un autre côté, attendre qu’elle parte
+                    risquait d’être très long car on ne fait pas du feu pour s’en aller dès qu’il a
+                    pris. Il en était là de ses réflexions quand la voix se fit entendre.
+                    Apparemment, c’était une femme. Elle chantonnait à voix basse :<br/>
+                    Mon âââne, mon âââne,<br/>
+                    A bien mal à sa patte…<br/>
+                    Sans doute ne connaissait-elle pas la suite de la chanson car elle ne
+                    faisait que reprendre cette première phrase. Elle s’affairait, on entendait
+                    maintenant des bruits de casseroles, badaglang, et d’eau qui coulait dedans.
+                    Et toujours la chanson : « Mon âne, mon âne… » Voilà quelqu’un de bonne
+                    humeur, pensa Tomek. Il se dit aussi qu’une personne qui chantait « Mon
+                    âne, mon âne a bien mal à sa patte » ne pouvait pas être très méchante et il
+                    pointa le nez hors de sa cachette.<br/>
+                    C’était une femme, en effet. Drôlement accoutrée peut-être mais c’était
+                    une femme. Plutôt petite de taille mais très ronde. Elle portait les uns sur les
+                    autres une quantité de vêtements qui n’allaient pas ensemble. Par couches,
+                    pourrait-on dire : une couche de bas de laine rapiécés, une couche de jupes,
+                    une couche de pull-overs… Elle ne risquait pas d’avoir froid. Pour parfaire
+                    le tableau, elle était coiffée d’un bonnet qui lui couvrait les deux oreilles et
+                    chaussée de croquenots d’une taille impressionnante.<br/>
+                    — Tiens, tiens ! La faim sort le loup du bois ! Tu aimes le café ?<br/>
+                    — Oui, bonjour, madame… répondit Tomek qui n’en avait jamais bu.<br/>
+                    La femme éclata de rire en le voyant si timide.<br/>
+                    — Oh, pour le madame ! Appelle-moi Marie, va, ça suffira bien ! Et tiretoi
+                    une pierre vers le feu si tu veux t’asseoir.<br/>
+                    En contournant l’arbre à la recherche d’une pierre, Tomek vit qu’il y
+                    avait là un âne qui broutait, et une carriole dont les deux bras pointaient
+                    vers le ciel.<br/>
+                    — C’est votre âne ? demanda-t-il en revenant.<br/>
+                    — C’est Cadichon. Il est très intelligent. Un peu têtu mais très
+                    intelligent. Et vaillant surtout. Hein, Cadichon ?<br/>
+                    L’âne se redressa, inclina curieusement la tête et regarda sa maîtresse à
+                    travers une rangée de poils qui lui tombaient sur les yeux. Puis il reprit son
+                    repas.<br/>
+                    — Il est borgne, ajouta la grosse femme. Les ours…<br/>
+                    — Les ours ? fit Tomek en s’asseyant sur une pierre plate qu’il avait
+                    rapportée.<br/>
+                    — Eh oui, les ours. La forêt en est infestée.<br/>
+                    — Ah bon… dit Tomek, et il regarda au loin l’immense barre noire,
+                    silencieuse et immobile.<br/>
+                    Il se rendit compte qu’il l’avait presque oubliée.<br/>
+                    — Alors on ne peut pas la traverser ?<br/>
+                    La grosse femme, qui était en train de tailler une tartine dans une
+                    énorme miche de pain de seigle, arrêta net son geste.<br/>
+                    — Tu veux traverser la forêt ?<br/>
+                    — Oui, fit Tomek, et il eut l’impression d’avoir dit une énormité.
+                    Pour se corriger, il ajouta donc aussitôt :<br/>
+                    — Ou bien, si ça n’est pas possible, je ferai le tour…<br/>
+                    — Tu feras le tour ? reprit la grosse femme, et elle partit d’un rire si gai
+                    et si naturel que Tomek se mit à rire aussi.<br/>
+                    Ils en rirent aux larmes tous les deux, surtout que Tomek, pour en
+                    rajouter, répétait de temps en temps : « Je ferai le tour… » et la grosse
+                    femme riait de plus belle en reprenant, comme si c’était une chose tout à
+                    fait ordinaire : « Bien sûr, tu feras le tour ! »<br/>
+                    Quand ils furent un peu calmés, Marie alla vers la carriole et en rapporta
+                    dans un panier une livre de beurre, deux pots de confiture, l’un de fraises,
+                    l’autre de mûres, un gros morceau de fromage de brebis, du lait de vache
+                    dans un petit bidon et une boîte de sucre. Entre-temps, le café était prêt et
+                    tout chaud dans la casserole. Elle en versa à Tomek dans un gobelet, poussa
+                    vers lui le panier de nourriture et l’invita à se servir sans façon. Ils
+                    mangèrent en silence et de bon appétit. Puis Marie roula une cigarette et
+                    commença à la fumer, ce qui étonna bien Tomek qui n’avait jamais vu une
+                    femme faire cela.<br/>
+                    — Comment t’appelles-tu, au fait ? demanda enfin Marie en soufflant la
+                    fumée.<br/>
+                    — Tomek, je m’appelle Tomek.<br/>
+                    — Eh bien, Tomek, tu dois savoir que pour contourner cette forêt, pour
+                    en « faire le tour » – et ils faillirent se remettre à rire –, pour en faire le tour,
+                    il faut sans doute plus de deux ans.<br/>
+                    — Deux ans ! répéta Tomek, stupéfait.<br/>
+                    — Oui, cette forêt est la mère de toutes les forêts, c’est la plus ancienne
+                    et la plus grande. En tout cas la plus longue. Tu sais comment elle
+                    s’appelle ?<br/>
+                    — Non, répondit Tomek.<br/>
+                    — Elle s’appelle… Cadichon !<br/>
+                    Tomek crut un instant que la forêt s’appelait Cadichon, et il trouva que
+                    le nom était bien mal choisi pour une forêt aussi redoutable, mais non,
+                    Marie s’était simplement interrompue pour appeler son âne.<br/>
+                    — Cadichon ! Veux-tu un morceau de fromage pour ton dessert ?<br/>
+                    L’âne remua la queue, ce qui voulait dire oui sans doute car Marie se
+                    leva pour le lui apporter.<br/>
+                    — Elle s’appelle la Forêt de l’Oubli. Et tu sais pourquoi ?<br/>
+                    — Non, répondit Tomek, en se disant qu’il ne savait décidément pas
+                    grand-chose.<br/>
+                    — Elle s’appelle la Forêt de l’Oubli parce qu’on oublie immédiatement
+                    ceux qui y entrent…<br/>
+                    — Vous voulez dire…<br/>
+                    — Tu peux me dire « tu », Tomek, je ne suis pas la reine d’Angleterre.<br/>
+                    — Tu veux dire qu’ils ne reviennent plus et qu’on finit par les oublier ?<br/>
+                    — Non. Pas du tout. Je veux dire qu’on les oublie dès qu’ils y entrent.<br/>
+                    Comme s’ils n’existaient plus, comme s’ils n’avaient jamais existé. La forêt
+                    les avale tout entiers, et avec eux le souvenir qu’on en a. Ils sortent à la fois
+                    de notre vue et de notre mémoire. Tu comprends ?<br/>
+                    — Pas tout à fait…<br/>
+                    — Bon. Je vais te donner un exemple. Tes parents pensent sans doute à
+                    toi en ce moment, ils se demandent où tu es, ce que tu…<br/>
+                    Tomek l’interrompit :<br/>
+                    — Je n’ai plus de parents. Je suis orphelin.<br/>
+                    — Bien, alors dis-moi le nom de quelqu’un qui te connaît très bien et
+                    qui t’aime beaucoup.<br/>
+                    Tomek n’eut pas à hésiter :<br/>
+                    — Icham. C’est mon meilleur ami.<br/>
+                    — Parfait. Cette personne pense donc certainement à toi en ce moment,
+                    elle se demande si tu vas bien, ce que tu fais, quand tu vas revenir, non ?<br/>
+                    — Si, certainement… répondit Tomek, et son coeur se serra.<br/>
+                    — Eh bien, dès que tu auras mis un pied dans cette forêt, Écham…<br/>
+                    — I… cham, la corrigea Tomek.<br/>
+                    — Icham n’aura plus le moindre souvenir de toi. Pour lui, tu n’auras
+                    jamais existé, et si on lui demande des nouvelles de Tomek, ce qui est
+                    d’ailleurs impossible puisque personne ne peut demander des nouvelles de
+                    quelqu’un qui n’existe plus, mais admettons qu’on puisse le faire et donc
+                    qu’on lui demande des nouvelles de Tomek, eh bien, il répondra : « Des
+                    nouvelles de qui ? » Et cela aussi longtemps que tu resteras dans la forêt. À
+                    l’inverse, dès que tu en sortiras, si tu en sors, tout sera comme avant et ton
+                    ami Icham pourra se demander : « Tiens, et ce bandit de Tomek, qu’est-ce
+                    qu’il peut bien fabriquer à l’heure qu’il est ? »<br/>
+                    — Et… et si je n’en sors pas ? demanda faiblement Tomek.<br/>
+                    — Si tu n’en sors pas, alors tu seras oublié pour l’éternité. Ton nom ne
+                    dira rien à personne. Ce sera comme si tu n’avais pas vécu.<br/>
+                    Jamais Tomek n’aurait imaginé qu’une chose aussi horrible puisse
+                    exister. Il termina en silence sa tartine de beurre et son gobelet de café,
+                    tandis que Marie finissait sa cigarette, et tout à coup il eut une idée folle.
+                    — Mais alors, Marie, si tu entrais tout de suite dans la forêt, d’un mètre
+                    seulement, tu n’existerais plus pour moi ?<br/>
+                    — Exactement, Tomek. Ça t’amuserait d’essayer ?<br/>
+                    Le mot « amuser » ne convenait pas vraiment. Cela lui faisait même un
+                    peu peur, mais il accepta tout de même et tous les deux se hâtèrent de
+                    ranger ce qui restait du petit déjeuner et d’éteindre le feu. Puis Marie attela
+                    la carriole à Cadichon comme à un vrai petit cheval. Ils sautèrent dedans et
+                    elle lança :<br/>
+                    — Hue, Cadichon !<br/>
+                    L’âne se mit à trotter en direction de la forêt et ils l’atteignirent en
+                    quelques minutes. Tomek se demandait de plus en plus s’il avait vraiment
+                    envie de faire cette drôle d’expérience, mais déjà Marie le poussait hors de
+                    la carriole.<br/>
+                    — Voilà, je vais m’avancer de quelques mètres dans la forêt avec
+                    Cadichon. J’y resterai trois minutes environ puis je ressortirai. J’espère
+                    seulement que tu n’auras pas l’idée d’entrer à ton tour dans la forêt, car on
+                    n’en aurait pas fini de se chercher. Ou plutôt de ne pas se chercher,
+                    justement ! Quel âge as-tu, Tomek ?<br/>
+                    — J’ai treize ans.<br/>
+                    — Alors ça va. Aucun enfant de treize n’oserait entrer tout seul dans
+                    cette forêt. À tout à l’heure, Tomek ! Hue, Cadichon !<br/>
+                    L’âne se mit en marche, tirant la carriole, Marie fit un dernier signe du
+                    bras et elle disparut entre les troncs noirs de la Forêt de l’Oubli.
+                    Tomek recula d’une dizaine de pas pour mieux voir l’impressionnant
+                    mur d’arbres qui se dressait devant lui. C’était une variété de sapins très
+                    sombres et très touffus, hauts de quatre-vingts mètres au moins. Sans même
+                    entrer dans la forêt, on en sentait la fraîcheur. Il doit faire bien noir làdessous,
+                    se dit Tomek avec inquiétude. Il était peut-être plus raisonnable de
+                    contourner cette forêt, d’en faire le tour. À cette pensée, il eut curieusement
+                    envie de rire, et pourtant ce n’était pas drôle. Perdre plusieurs jours ou
+                    même plusieurs semaines n’avait rien de réjouissant… Si seulement il avait
+                    eu avec lui un compagnon de voyage, évidemment, il aurait vu les choses
+                    d’une autre manière. À deux, on s’encourage, on s’entraîne, on peut rire
+                    ensemble, se porter secours s’il le faut. Or, depuis son départ, il n’avait
+                    rencontré personne. Et il avait fini par dormir sous cet arbre là-bas, tout
+                    seul, enroulé dans sa couverture. Sa couverture ! Il avait oublié sa
+                    couverture !<br/>
+                    Il courut à toutes jambes vers l’arbre et plongea sous les branches. Ouf !
+                    Elle était encore là. Il se promit d’être plus vigilant désormais. Un
+                    aventurier ne doit pas perdre ses affaires, surtout quand il en a si peu. Ce
+                    n’est qu’en sortant de sa cachette qu’il vit les restes d’un feu tout près de
+                    l’arbre. Il aurait pourtant juré qu’il n’y avait rien la veille quand il était
+                    arrivé là. Et personne n’était venu depuis. Voilà qui était bien étrange.
+                    Il roula la couverture sur ses épaules et fit quelques pas en direction de
+                    la forêt. Après tout, elle n’était peut-être pas aussi grande que cela. En
+                    partant tout de suite et en marchant d’un bon pas, il en serait sorti avant
+                    midi peut-être, au plus tard avant la nuit. Et en cas de mauvaise rencontre, il
+                    avait son couteau à ours dans sa poche.<br/>
+                    Avant d’entrer dans la forêt, il eut une dernière hésitation car il lui vint à
+                    l’esprit qu’il n’avait rien mangé au petit déjeuner et qu’il aurait sans doute
+                    besoin de toutes ses forces. Or, il constata avec surprise qu’il n’avait pas
+                    faim et qu’il se sentait même tout à fait rassasié. Allons ! se dit-il, et il
+                    s’avança avec détermination vers la forêt.<br/>
+                    Il allait y pénétrer quand il entendit des branches craquer tout près de là.
+                    Était-ce un animal ? Un être humain ? Le bruit se rapprochait. Tomek recula
+                    vivement et se coucha dans les herbes hautes pour voir ce qui allait surgir
+                    de l’obscurité. Ce qu’il vit, ce furent d’abord deux oreilles d’âne, puis une
+                    tête d’âne, puis un âne tout entier, enfin une carriole tirée par l’âne et sur la
+                    carriole une grosse femme souriante. Rassuré, il se redressa.<br/>
+                    — Alors, Tomek ! La mémoire te revient ? lui lança joyeusement Marie.<br/>
+                    Tomek se précipita vers la carriole. Marie, qui en était descendue, lui
+                    tendit les bras. Tomek n’osa pas s’y jeter parce qu’ils ne se connaissaient
+                    pas encore assez bien. Il se contenta de lui prendre les mains et de les serrer.
+                    C’est ainsi qu’ils devinrent amis.<br/>
                 </p>
+
               </div>
             </Col>
             <Col sm={6}>
-        <Canvas className="canvas" dpr={[1, 2]} camera={{ position: [0, 0, 7], fov: 75 }}>
+        <Canvas className="canvas" dpr={[1, 2]} camera={{ position: [0, 0, 15], fov: 75 }}>
           {/*<ambientLight intensity={0.5} />*/}
           {/*<spotLight position={[0, 0, 10]} angle={0.15} penumbra={1} shadow-mapSize={[512, 512]} castShadow />*/}
           <directionalLight intensity={0.5} />
@@ -264,7 +429,6 @@ export default function AppWagon() {
             minPolarAngle={0}
             enableZoom={true}
             enablePan={false}
-            maxDistance={10}
             minDistance={0}
             maxZoom={10}
             minZoom={-1}

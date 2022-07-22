@@ -25,7 +25,7 @@ export default function Candy({ state,...props }) {
            onPointerOut={(e) => e.intersections.length === 0 && set(null)}
            onPointerMissed={() => (state.current = null)}
            onClick={(e) => (e.stopPropagation(), (state.current = e.object.material.name))}>
-      <group position={[0, 1, 0]} rotation={[-90, 90, 0]}>
+      <group position={[2, 2.5, 0]} rotation={[-90, 90, 0]}>
         <mesh
           castShadow
           receiveShadow
