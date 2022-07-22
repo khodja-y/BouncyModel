@@ -75,10 +75,11 @@ const Light = () => {
 
 export default function AppWagon() {
   const [isOpen, setIsOpen] = useState(false);
+  document.body.classList.add('wagon-bg');
 
   return (
     <>
-      <main className="wagon-bg">
+      <main >
         <Container>
           <Row>
             <Col sm={6} className=''>

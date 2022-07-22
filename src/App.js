@@ -41,10 +41,10 @@ function Picker() {
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
-
+  document.body.classList.add('home-bg');
   return (
     <>
-      <main className="home-bg">
+      <main >
         <Container>
           <Row>
             <Col sm={6} className=''>
