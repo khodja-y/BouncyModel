@@ -45,8 +45,9 @@ export default function AppCandy() {
           <Row>
             <Col sm={6} className=''>
               <div className='overlay'>
-                <h2 className='just'>LES OISEAUX DE PASSAGE</h2>
+
                 <p className='just scroll c-scroll'>
+                  <h2 className='just'>LES OISEAUX DE PASSAGE</h2>
                   C’était la fin de l’été, un soir qu’il avait laissé la porte de sa boutique
                   ouverte pour profiter de la fraîcheur de la nuit. Il était occupé à faire ses
                   comptes sur son grand cahier spécial, à la lumière d’une lampe à huile, et il
