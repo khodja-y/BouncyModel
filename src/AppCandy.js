@@ -38,9 +38,10 @@ function Picker() {
 
 export default function AppCandy() {
   const [isOpen, setIsOpen] = useState(false);
+  document.body.classList.add('candy-bg');
   return (
     <>
-      <main className="candy-bg">
+      <main>
         <Container>
           <Row>
             <Col sm={6} className=''>
