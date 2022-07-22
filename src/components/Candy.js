@@ -5,7 +5,7 @@ import * as THREE from 'three'
 
 export default function Candy({ state,...props }) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/candy.glb");
+  const { nodes, materials } = useGLTF("./candy.glb");
 
   const snap = useSnapshot(state)
 

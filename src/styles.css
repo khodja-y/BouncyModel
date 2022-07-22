@@ -1,4 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 * {
   box-sizing: border-box;
@@ -9,9 +10,10 @@ body,
 #root,
 main {
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
+  height:100vh;
+  background: #3e4885;
 }
 
 body {
@@ -22,14 +24,13 @@ body {
 .canvas {
   order: 2;
   flex: 1;
-  height: 100%;
+  height: 90%;
 }
 
 .overlay {
   position: relative;
   order: 1;
   flex: 1;
-  pointer-events: none;
 }
 
 @media only screen and (max-aspect-ratio: 16/9) {
@@ -48,11 +49,6 @@ body {
   }
 }
 
-main {
-  background: #6687b3;
-  display: flex;
-  flex-direction: row;
-}
 
 h1 {
   position: absolute;
@@ -73,4 +69,38 @@ h1 {
   left: 75%;
   width: 90px !important;
   height: 90px !important;
+}
+.just{
+  text-align: justify;
+}
+.scroll{
+  height:100vh;
+  overflow-y: scroll;
+}
+.menu-btn {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 20px !important;
+}
+@font-face {
+  font-family: titre-font;
+  src: url(./fonts/BaksoSapi.otf);
+}
+h2{
+  font-family: titre-font, serif;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 45px;
+  color: aliceblue;
+  text-shadow: 1px 1px 9px black;
+}
+@font-face {
+  font-family: texte-font;
+  src: url(./fonts/Doctor_Soos_Light.ttf);
+}
+p{
+  font-family: texte-font, serif;
+  color: black;
+  font-size: x-large;
 }

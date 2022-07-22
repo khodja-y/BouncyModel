@@ -13,11 +13,21 @@ license: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 source: https://sketchfab.com/3d-models/tag-heuer-monaco-x-gulf-watch-31ba7140fb3146b2af3cbdc13022421c
 title: Tag Heuer Monaco X GULF Watch
 */
+console.log()
+let path = window.location.pathname.substring(1)
 
 createRoot(document.getElementById('root')).render(
   <>
     <Suspense fallback={null}>
-      <AppWagon />
+      {
+        path === 'chapitre-1' ?
+          <App />
+          : path === 'chapitre-2' ?
+            <AppCandy />
+            : path === 'chapitre-3' ?
+              <AppWagon />
+              : <App />
+      }
     </Suspense>
     <Loader />
   </>
