@@ -78,13 +78,13 @@ export default function AppWagon() {
 
   return (
     <>
-      <main>
+      <main className="wagon-bg">
         <Container>
           <Row>
             <Col sm={6} className=''>
               <div className='overlay'>
                 <h2 className='just'>Le départ</h2>
-                <p className='just scroll'>
+                <p className='just scroll c-scroll'>
                   À compter de ce jour, l’idée de partir ne quitta plus Tomek. Une nuit, il fit
                   un rêve étrange où la jeune fille était poursuivie par des tigres qui couraient
                   sur leurs deux pattes de derrière, comme des hommes. Elle l’appelait :

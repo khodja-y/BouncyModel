@@ -13,7 +13,16 @@ main {
   margin: 0;
   padding: 0;
   height:100vh;
+
+}
+.home-bg{
   background: #3e4885;
+}
+.wagon-bg{
+  background: #412f6c;
+}
+.candy-bg{
+  background: #85643e;
 }
 
 body {
@@ -103,4 +112,14 @@ p{
   font-family: texte-font, serif;
   color: black;
   font-size: x-large;
+}
+
+.c-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.c-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

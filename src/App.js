@@ -44,13 +44,13 @@ export default function App() {
 
   return (
     <>
-      <main>
+      <main className="home-bg">
         <Container>
           <Row>
             <Col sm={6} className=''>
               <div className='overlay'>
                 <h2 className='just'>LES OISEAUX DE PASSAGE</h2>
-                <p className='just scroll'>
+                <p className='just scroll c-scroll'>
                   L’épicerie de Tomek était la dernière maison du village. C’était une petite
                   boutique toute simple avec, au-dessus de la vitrine, l’inscription ÉPICERIE
                   peinte en lettres bleues. Quand on poussait la porte, une clochette tintait
