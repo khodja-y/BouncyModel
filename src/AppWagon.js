@@ -412,6 +412,8 @@ export default function AppWagon() {
                     tendit les bras. Tomek n’osa pas s’y jeter parce qu’ils ne se connaissaient
                     pas encore assez bien. Il se contenta de lui prendre les mains et de les serrer.
                     C’est ainsi qu’ils devinrent amis.<br/>
+
+                  <h2 className='just'>La suite arrive prochainement...</h2>
                 </p>
 
               </div>
